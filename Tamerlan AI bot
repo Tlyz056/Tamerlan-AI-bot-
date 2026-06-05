@@ -1,0 +1,24 @@
+print("Salam! Mən Tamerlan AI chatbotuyam.")
+print("Çıxmaq üçün 'exit' yaz.")
+
+while True:
+    mesaj = input("Sən: ").lower()
+
+    if "ai" in mesaj or "süni intellekt" in mesaj:
+        print("Bot: Süni intellekt kompüterlərin insan kimi öyrənməsi və qərar verməsidir.")
+
+    elif "python" in mesaj:
+        print("Bot: Python AI və proqramlaşdırmada ən məşhur dillərdən biridir.")
+
+    elif "kibertəhlükəsizlik" in mesaj:
+        print("Bot: Kibertəhlükəsizlik sistemləri və məlumatları hücumlardan qorumaqla məşğul olur.")
+
+    elif "gələcək" in mesaj:
+        print("Bot: AI, kibertəhlükəsizlik və proqramlaşdırma gələcəyin ən perspektivli sahələrindəndir.")
+
+    elif mesaj == "exit":
+        print("Bot: Sağ ol, görüşərik!")
+        break
+
+    else:
+        print("Bot: Bu mövzuda məlumatım yoxdur.")
